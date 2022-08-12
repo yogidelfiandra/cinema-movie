@@ -4,7 +4,7 @@ import { LibraryMenu, SettingMenu, UserMenu } from './MenuList';
 
 export default function SideBar() {
   return (
-    <aside className='fixed w-[245px] h-full'>
+    <aside className='fixed z-50 w-[300px] h-full'>
       <div className='flex flex-col p-[30px] pr-0 border-r border-gray-100 h-full overflow-y-auto'>
         <a href='#' className='flex items-center mt-8 navbar-brand'>
           <img src='/images/logo.png' alt='logo-cinema' />

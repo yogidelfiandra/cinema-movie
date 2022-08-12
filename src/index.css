@@ -16,3 +16,14 @@ body {
 .side-link.active {
   @apply border-r-[4px] border-[#f9b546] text-[#f9b546] tracking-[.01em];
 }
+
+.nav-link {
+  @apply flex text-base font-normal text-[#717171];
+}
+.nav-link.active {
+  @apply text-[#f9b546];
+}
+
+input.search-input {
+  @apply w-full py-3.5 pr-4 bg-transparent focus:outline-none placeholder:text-[#717171] text-white;
+}
