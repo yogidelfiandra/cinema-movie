@@ -30,7 +30,7 @@ export default function TopBar() {
       <div className='search-bar'>
         <div className='w-[600px] rounded-md pl-4 bg-[#131212]'>
           <label htmlFor='search' className='flex items-center'>
-            <img className='mr-3' src='/icon/icon-search.svg' alt='' />
+            <img className='mr-3' src='/icons/icon-search.svg' alt='' />
             <input
               type='text'
               id='search'
@@ -42,10 +42,10 @@ export default function TopBar() {
       </div>
       <div>
         <div className='flex items-center gap-[30px] cursor-pointer'>
-          <img src='/icon/icon-notification.svg' alt='' />
+          <img src='/icons/icon-notification.svg' alt='' />
           <div className='flex items-center gap-3 '>
             <img src='/images/profile.png' alt='' />
-            <img src='/icon/icon-dropdown.svg' alt='' />
+            <img src='/icons/icon-dropdown.svg' alt='' />
           </div>
         </div>
       </div>
